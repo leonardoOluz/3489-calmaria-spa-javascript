@@ -26,7 +26,8 @@
 }
 
 .container__incricao--form-input {
-  width: 328px;
+  width: 100%;
+  max-width: 450px;
   height: 65px;
   border-radius: 65px;
   border: 1px solid var(--azul-escuro);
@@ -88,7 +89,7 @@
   }
 
   .container__incricao--form-input {
-    width: 368px;
+    max-width: 770px;
   }
 
   .container__incricao--tablet {
@@ -100,7 +101,7 @@
   /* Seção inscrição */
 
   .container__incricao--form-input {
-    width: 790px;
+    max-width: 790px;
     height: 65px;
     row-gap: 24px;
   }
